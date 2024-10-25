@@ -1,0 +1,1415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Services - Loans, Credit Cards, and Investments</title>
+    <style>
+
+        /* Basic styling for layout and structure */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #2a9df4;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        h2 {
+            color: #2a9df4;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .service {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            margin: 10px;
+            text-align: center;
+        }
+        .service h3 {
+            color: #2a9df4;
+        }
+        .application-form {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 500px;
+        }
+        .application-form input, .application-form select, .application-form button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .application-form button {
+            background-color: #2a9df4;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .application-form button:hover {
+            background-color: #1e7bc1;
+        }
+        .faq {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 1000px;
+        }
+        .faq h3 {
+            color: #2a9df4;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Financial Services</h1>
+        <p>Explore our offerings for Loans, Credit Cards, and Investment Options</p>
+    </header>
+
+    <!-- Services Section -->
+    <section class="container">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Loans</h3>
+                <p>Find the best loans with low interest rates and flexible payment options.</p>
+            </div>
+            <div class="service">
+                <h3>Credit Cards</h3>
+                <p>Choose from a wide range of credit cards that fit your lifestyle and spending needs.</p>
+            </div>
+            <div class="service">
+                <h3>Investments</h3>
+                <p>Grow your wealth with secure and high-yield investment options.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form Section -->
+    <section class="container">
+        <div class="application-form">
+            <h2>Apply for a Loan, Credit Card, or Investment</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <select required>
+                    <option value="">Select Service</option>
+                    <option value="loan">Loan</option>
+                    <option value="credit_card">Credit Card</option>
+                    <option value="investment">Investment</option>
+                </select>
+                <input type="text" placeholder="Requested Amount (for Loans)" required>
+                <button type="submit">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="container faq">
+        <h2>Frequently Asked Questions</h2>
+        <div>
+            <h3>How do I apply for a loan?</h3>
+            <p>You can apply for a loan by filling out the application form above. We'll get in touch with you to discuss options.</p>
+        </div>
+        <div>
+            <h3>What types of credit cards are available?</h3>
+            <p>We offer credit cards for different needs, including cashback, travel, and rewards cards. Contact us for more information.</p>
+        </div>
+        <div>
+            <h3>What investment options are offered?</h3>
+            <p>We provide a variety of investments, such as mutual funds, fixed deposits, and stock market options. Speak with an advisor for guidance.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Financial Services Platform. All Rights Reserved.</p>
+    </footer>
+<h1><!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Loan Platform - Find Your Ideal Loan</title>
+        <style>
+            /* Basic styling for layout and structure */
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                background-color: #004080;
+                color: #fff;
+                text-align: center;
+                padding: 20px;
+            }
+            nav {
+                display: flex;
+                justify-content: center;
+                background-color: #0073e6;
+                padding: 10px;
+            }
+            nav a {
+                color: #fff;
+                text-decoration: none;
+                margin: 0 15px;
+            }
+            .banner {
+                background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+                background-size: cover;
+                height: 400px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+            }
+            .banner h1 {
+                font-size: 2.5em;
+                text-shadow: 2px 2px 4px #000;
+            }
+            .loan-types, .eligibility, .application-form, .testimonials {
+                padding: 20px;
+                margin: 20px auto;
+                max-width: 1000px;
+            }
+            .loan-types h2, .eligibility h2, .application-form h2, .testimonials h2 {
+                text-align: center;
+                color: #004080;
+            }
+            .loan-options {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+            .loan-option {
+                background-color: #f0f8ff;
+                padding: 20px;
+                margin: 10px;
+                flex: 1 1 30%;
+                text-align: center;
+            }
+            .application-form form {
+                display: flex;
+                flex-direction: column;
+                max-width: 500px;
+                margin: auto;
+            }
+            .application-form input, .application-form select, .application-form button {
+                padding: 10px;
+                margin: 10px 0;
+                font-size: 1em;
+            }
+            footer {
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 15px;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <!-- Header Section -->
+        <header>
+            <h1>Loan Platform</h1>
+            <p>Compare and Apply for the Best Loans</p>
+        </header>
+    
+        <!-- Navigation -->
+        <nav>
+            <a href="#loan-types">Loan Types</a>
+            <a href="#eligibility">Eligibility Checker</a>
+            <a href="#application-form">Apply Now</a>
+            <a href="#testimonials">Testimonials</a>
+        </nav>
+    
+        <!-- Banner Section -->
+        <div class="banner">
+            <h1>Find the Loan That Fits Your Needs</h1>
+        </div>
+    
+        <!-- Loan Types Section -->
+        <section class="loan-types" id="loan-types">
+            <h2>Types of Loans We Offer</h2>
+            <div class="loan-options">
+                <div class="loan-option">
+                    <h3>Personal Loan</h3>
+                    <p>Get a personal loan for any of your financial needs, from education to home renovation.</p>
+                </div>
+                <div class="loan-option">
+                    <h3>Home Loan</h3>
+                    <p>Build or buy your dream home with our customized home loan options.</p>
+                </div>
+                <div class="loan-option">
+                    <h3>Business Loan</h3>
+                    <p>Expand your business with our flexible and convenient business loan solutions.</p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Eligibility Checker Section -->
+        <section class="eligibility" id="eligibility">
+            <h2>Check Your Eligibility</h2>
+            <p style="text-align: center;">Enter your details to see if you qualify for a loan.</p>
+            <form style="max-width: 400px; margin: auto;">
+                <input type="text" placeholder="Your Age" required>
+                <input type="text" placeholder="Monthly Income" required>
+                <input type="text" placeholder="Employment Type" required>
+                <button type="submit">Check Eligibility</button>
+            </form>
+        </section>
+    
+        <!-- Application Form Section -->
+        <section class="application-form" id="application-form">
+            <h2>Apply for a Loan</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <select required>
+                    <option value="">Select Loan Type</option>
+                    <option value="personal">Personal Loan</option>
+                    <option value="home">Home Loan</option>
+                    <option value="business">Business Loan</option>
+                </select>
+                <input type="text" placeholder="Loan Amount" required>
+                <button type="submit">Submit Application</button>
+            </form>
+        </section>
+    
+        <!-- Testimonials Section -->
+        <section class="testimonials" id="testimonials">
+            <h2>What Our Clients Say</h2>
+            <p>"This platform helped me secure a home loan with the lowest interest rates!" - Sarah K.</p>
+            <p>"Their loan comparison feature made finding a business loan so much easier!" - Michael T.</p>
+        </section>
+    
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2024 Loan Platform. All Rights Reserved.</p>
+        </footer>
+    <h2><!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Credit Card Platform - Find Your Perfect Card</title>
+            <style>
+                /* Basic styling for layout and structure */
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #f4f4f4;
+                }
+                header {
+                    background-color: #4b0082;
+                    color: #fff;
+                    text-align: center;
+                    padding: 20px;
+                }
+                nav {
+                    display: flex;
+                    justify-content: center;
+                    background-color: #6a0dad;
+                    padding: 10px;
+                }
+                nav a {
+                    color: #fff;
+                    text-decoration: none;
+                    margin: 0 15px;
+                }
+                .banner {
+                    background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+                    background-size: cover;
+                    height: 400px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #fff;
+                    text-align: center;
+                }
+                .banner h1 {
+                    font-size: 2.5em;
+                    text-shadow: 2px 2px 4px #000;
+                }
+                .card-types, .eligibility, .application-form, .testimonials {
+                    padding: 20px;
+                    margin: 20px auto;
+                    max-width: 1000px;
+                }
+                .card-types h2, .eligibility h2, .application-form h2, .testimonials h2 {
+                    text-align: center;
+                    color: #4b0082;
+                }
+                .cards {
+                    display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                }
+                .card {
+                    background-color: #fff;
+                    border: 1px solid #ddd;
+                    padding: 20px;
+                    margin: 10px;
+                    flex: 1 1 30%;
+                    text-align: center;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                }
+                .application-form form {
+                    display: flex;
+                    flex-direction: column;
+                    max-width: 500px;
+                    margin: auto;
+                }
+                .application-form input, .application-form select, .application-form button {
+                    padding: 10px;
+                    margin: 10px 0;
+                    font-size: 1em;
+                }
+                footer {
+                    background-color: #333;
+                    color: #fff;
+                    text-align: center;
+                    padding: 15px;
+                }
+            </style>
+        </head>
+        <body>
+        
+            <!-- Header Section -->
+            <header>
+                <h1>Credit Card Platform</h1>
+                <p>Find, Compare, and Apply for the Best Credit Cards</p>
+            </header>
+        
+            <!-- Navigation -->
+            <nav>
+                <a href="#card-types">Credit Cards</a>
+                <a href="#eligibility">Eligibility Checker</a>
+                <a href="#application-form">Apply Now</a>
+                <a href="#testimonials">Testimonials</a>
+            </nav>
+        
+            <!-- Banner Section -->
+            <div class="banner">
+                <h1>Choose the Right Credit Card for Your Needs</h1>
+            </div>
+        
+            <!-- Credit Card Types Section -->
+            <section class="card-types" id="card-types">
+                <h2>Types of Credit Cards We Offer</h2>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Rewards Card</h3>
+                        <p>Earn points on every purchase and redeem them for exciting rewards.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Cashback Card</h3>
+                        <p>Get cashback on everyday purchases and save on spending.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Travel Card</h3>
+                        <p>Enjoy travel benefits like free lounge access, air miles, and more.</p>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- Eligibility Checker Section -->
+            <section class="eligibility" id="eligibility">
+                <h2>Check Your Eligibility</h2>
+                <p style="text-align: center;">Enter your details to see if you qualify for a credit card.</p>
+                <form style="max-width: 400px; margin: auto;">
+                    <input type="text" placeholder="Your Age" required>
+                    <input type="text" placeholder="Monthly Income" required>
+                    <input type="text" placeholder="Credit Score" required>
+                    <button type="submit">Check Eligibility</button>
+                </form>
+            </section>
+        
+            <!-- Application Form Section -->
+            <section class="application-form" id="application-form">
+                <h2>Apply for a Credit Card</h2>
+                <form>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                    <select required>
+                        <option value="">Select Card Type</option>
+                        <option value="rewards">Rewards Card</option>
+                        <option value="cashback">Cashback Card</option>
+                        <option value="travel">Travel Card</option>
+                    </select>
+                    <input type="text" placeholder="Annual Income" required>
+                    <button type="submit">Submit Application</button>
+                </form>
+            </section>
+        
+            <!-- Testimonials Section -->
+            <section class="testimonials" id="testimonials">
+                <h2>What Our Customers Say</h2>
+                <p>"I got the best travel card here and saved on flights!" - Laura P.</p>
+                <p>"Their comparison tool made choosing a rewards card so simple!" - David M.</p>
+            </section>
+        
+            <!-- Footer Section -->
+            <footer>
+                <p>&copy; 2024 Credit Card Platform. All Rights Reserved.</p>
+            </footer>
+        <h4><!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Investment Platform - Grow Your Wealth</title>
+                <style>
+                    /* Basic styling for layout and structure */
+                    body {
+                        font-family: Arial, sans-serif;
+                        margin: 0;
+                        padding: 0;
+                        background-color: #f4f4f4;
+                    }
+                    header {
+                        background-color: #2e8b57;
+                        color: #fff;
+                        text-align: center;
+                        padding: 20px;
+                    }
+                    nav {
+                        display: flex;
+                        justify-content: center;
+                        background-color: #3cb371;
+                        padding: 10px;
+                    }
+                    nav a {
+                        color: #fff;
+                        text-decoration: none;
+                        margin: 0 15px;
+                    }
+                    .banner {
+                        background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+                        background-size: cover;
+                        height: 400px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: #fff;
+                        text-align: center;
+                    }
+                    .banner h1 {
+                        font-size: 2.5em;
+                        text-shadow: 2px 2px 4px #000;
+                    }
+                    .investment-options, .eligibility, .application-form, .testimonials {
+                        padding: 20px;
+                        margin: 20px auto;
+                        max-width: 1000px;
+                    }
+                    .investment-options h2, .eligibility h2, .application-form h2, .testimonials h2 {
+                        text-align: center;
+                        color: #2e8b57;
+                    }
+                    .options {
+                        display: flex;
+                        justify-content: space-around;
+                        flex-wrap: wrap;
+                    }
+                    .option {
+                        background-color: #fff;
+                        border: 1px solid #ddd;
+                        padding: 20px;
+                        margin: 10px;
+                        flex: 1 1 30%;
+                        text-align: center;
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    }
+                    .application-form form {
+                        display: flex;
+                        flex-direction: column;
+                        max-width: 500px;
+                        margin: auto;
+                    }
+                    .application-form input, .application-form select, .application-form button {
+                        padding: 10px;
+                        margin: 10px 0;
+                        font-size: 1em;
+                    }
+                    footer {
+                        background-color: #333;
+                        color: #fff;
+                        text-align: center;
+                        padding: 15px;
+                    }
+                </style>
+            </head>
+            <body>
+            
+                <!-- Header Section -->
+                <header>
+                    <h1>Investment Platform</h1>
+                    <p>Explore, Compare, and Invest in the Best Options for Your Future</p>
+                </header>
+            
+                <!-- Navigation -->
+                <nav>
+                    <a href="#investment-options">Investment Options</a>
+                    <a href="#eligibility">Eligibility Checker</a>
+                    <a href="#application-form">Get Started</a>
+                    <a href="#testimonials">Testimonials</a>
+                </nav>
+            
+                <!-- Banner Section -->
+                <div class="banner">
+                    <h1>Find the Best Investment Plan for Your Goals</h1>
+                </div>
+            
+                <!-- Investment Options Section -->
+                <section class="investment-options" id="investment-options">
+                    <h2>Types of Investments We Offer</h2>
+                    <div class="options">
+                        <div class="option">
+                            <h3>Mutual Funds</h3>
+                            <p>Diversify your portfolio with a range of mutual funds tailored to your goals.</p>
+                        </div>
+                        <div class="option">
+                            <h3>Fixed Deposits</h3>
+                            <p>Secure, low-risk investments with guaranteed returns and flexible terms.</p>
+                        </div>
+                        <div class="option">
+                            <h3>Stocks</h3>
+                            <p>Invest in leading companies and benefit from long-term growth in the stock market.</p>
+                        </div>
+                    </div>
+                </section>
+            
+                <!-- Eligibility Checker Section -->
+                <section class="eligibility" id="eligibility">
+                    <h2>Check Your Eligibility</h2>
+                    <p style="text-align: center;">Enter your details to see if you qualify for an investment account.</p>
+                    <form style="max-width: 400px; margin: auto;">
+                        <input type="text" placeholder="Your Age" required>
+                        <input type="text" placeholder="Monthly Income" required>
+                        <input type="text" placeholder="Investment Goals" required>
+                        <button type="submit">Check Eligibility</button>
+                    </form>
+                </section>
+            
+                <!-- Application Form Section -->
+                <section class="application-form" id="application-form">
+                    <h2>Open an Investment Account</h2>
+                    <form>
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <input type="tel" placeholder="Phone Number" required>
+                        <select required>
+                            <option value="">Select Investment Type</option>
+                            <option value="mutual_fund">Mutual Fund</option>
+                            <option value="fixed_deposit">Fixed Deposit</option>
+                            <option value="stocks">Stocks</option>
+                        </select>
+                        <input type="text" placeholder="Initial Investment Amount" required>
+                        <button type="submit">Submit Application</button>
+                    </form>
+                </section>
+            
+                <!-- Testimonials Section -->
+                <section class="testimonials" id="testimonials">
+                    <h2>What Our Investors Say</h2>
+                    <p>"I invested in mutual funds here and saw great returns!" - Amanda R.</p>
+                    <p>"The fixed deposits offered by this platform have the best interest rates!" - John W.</p>
+                </section>
+            
+                <!-- Footer Section -->
+                <footer>
+                    <p>&copy; 2024 Investment Platform. All Rights Reserved.</p>
+                </footer>
+            <h6><!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Free CIBIL Report - Check Your Credit Score</title>
+                    <style>
+                        /* Basic styling for layout and structure */
+                        body {
+                            font-family: Arial, sans-serif;
+                            margin: 0;
+                            padding: 0;
+                            background-color: #f9f9f9;
+                        }
+                        header {
+                            background-color: #1e90ff;
+                            color: #fff;
+                            text-align: center;
+                            padding: 20px;
+                        }
+                        .container {
+                            max-width: 1000px;
+                            margin: 20px auto;
+                            padding: 20px;
+                        }
+                        .intro, .faq, .form-section {
+                            margin-bottom: 20px;
+                        }
+                        h2 {
+                            color: #1e90ff;
+                            text-align: center;
+                        }
+                        .form-section {
+                            background-color: #fff;
+                            padding: 20px;
+                            border: 1px solid #ddd;
+                            border-radius: 5px;
+                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                        }
+                        .form-section form input, .form-section form button {
+                            width: 100%;
+                            padding: 10px;
+                            margin: 10px 0;
+                            border: 1px solid #ddd;
+                            border-radius: 5px;
+                            font-size: 1em;
+                        }
+                        .form-section button {
+                            background-color: #1e90ff;
+                            color: #fff;
+                            border: none;
+                            cursor: pointer;
+                        }
+                        .form-section button:hover {
+                            background-color: #4682b4;
+                        }
+                        .faq {
+                            background-color: #fff;
+                            padding: 20px;
+                            border-radius: 5px;
+                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                        }
+                        .faq h3 {
+                            color: #1e90ff;
+                            margin-top: 10px;
+                        }
+                        footer {
+                            background-color: #333;
+                            color: #fff;
+                            text-align: center;
+                            padding: 15px;
+                        }
+                    </style>
+                </head>
+                <body>
+                
+                    <!-- Header Section -->
+                    <header>
+                        <h1>Get Your Free CIBIL Report</h1>
+                        <p>Know your credit score in minutes!</p>
+                    </header>
+                
+                    <!-- Intro Section -->
+                    <section class="container intro">
+                        <h2>What is a CIBIL Report?</h2>
+                        <p>Your CIBIL report provides a detailed view of your credit history and current credit score. A good CIBIL score is essential for loan approvals, credit card applications, and financial planning. Our platform allows you to check your CIBIL score for free, ensuring you’re always aware of your financial standing.</p>
+                    </section>
+                
+                    <!-- Form Section -->
+                    <section class="container form-section" id="cibil-form">
+                        <h2>Check Your CIBIL Score for Free</h2>
+                        <form>
+                            <input type="text" placeholder="Full Name" required>
+                            <input type="email" placeholder="Email Address" required>
+                            <input type="tel" placeholder="Phone Number" required>
+                            <input type="text" placeholder="PAN Card Number" required>
+                            <button type="submit">Get Free Report</button>
+                        </form>
+                    </section>
+                
+                    <!-- FAQ Section -->
+                    <section class="container faq">
+                        <h2>Frequently Asked Questions</h2>
+                        <div>
+                            <h3>What is a CIBIL Score?</h3>
+                            <p>The CIBIL score is a three-digit number representing your creditworthiness, ranging from 300 to 900. A higher score means better credit health.</p>
+                        </div>
+                        <div>
+                            <h3>Why should I check my CIBIL score?</h3>
+                            <p>Knowing your CIBIL score helps you understand your credit health and is essential for loan and credit card applications.</p>
+                        </div>
+                        <div>
+                            <h3>Is it safe to provide my information here?</h3>
+                            <p>Yes, we use secure systems to ensure that your personal information is protected and used solely for obtaining your CIBIL report.</p>
+                        </div>
+                    </section>
+                
+                    <!-- Footer Section -->
+                    <footer>
+                        <p>&copy; 2024 Free CIBIL Report Platform. All Rights Reserved.</p>
+                    </footer>
+                   <h4><!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Contact Us - Get in Touch</title>
+                        <style>
+                            /* Basic styling for layout and structure */
+                            body {
+                                font-family: Arial, sans-serif;
+                                margin: 0;
+                                padding: 0;
+                                background-color: #f4f4f4;
+                            }
+                            header {
+                                background-color: #2e8b57;
+                                color: #fff;
+                                text-align: center;
+                                padding: 20px;
+                            }
+                            .contact-container {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                padding: 20px;
+                            }
+                            .contact-form {
+                                background-color: #fff;
+                                padding: 20px;
+                                border: 1px solid #ddd;
+                                border-radius: 5px;
+                                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                                width: 100%;
+                                max-width: 600px;
+                                margin: 20px 0;
+                            }
+                            .contact-form h2 {
+                                color: #2e8b57;
+                                text-align: center;
+                            }
+                            .contact-form input, .contact-form textarea, .contact-form button {
+                                width: 100%;
+                                padding: 10px;
+                                margin: 10px 0;
+                                border: 1px solid #ddd;
+                                border-radius: 5px;
+                                font-size: 1em;
+                            }
+                            .contact-form button {
+                                background-color: #2e8b57;
+                                color: #fff;
+                                border: none;
+                                cursor: pointer;
+                            }
+                            .contact-form button:hover {
+                                background-color: #3cb371;
+                            }
+                            .map {
+                                margin: 20px 0;
+                                max-width: 600px;
+                                width: 100%;
+                                height: 300px;
+                                border: 1px solid #ddd;
+                                border-radius: 5px;
+                                overflow: hidden;
+                            }
+                            footer {
+                                background-color: #333;
+                                color: #fff;
+                                text-align: center;
+                                padding: 15px;
+                            }
+                        </style>
+                    </head>
+                    <body>
+                    
+                        <!-- Header Section -->
+                        <header>
+                            <h1>Contact Us</h1>
+                            <p>We're here to help! Reach out to us anytime.</p>
+                        </header>
+                    
+                        <!-- Contact Form Section -->
+                        <section class="contact-container">
+                            <div class="contact-form">
+                                <h2>Send Us a Message</h2>
+                                <form>
+                                    <input type="text" placeholder="Your Name" required>
+                                    <input type="email" placeholder="Your Email" required>
+                                    <input type="tel" placeholder="Your Phone Number" required>
+                                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                                    <button type="submit">Submit</button>
+                                </form>
+                            </div>
+                    
+                            <!-- Map Section -->
+                            <div class="map">
+                                <!-- Embed a map iframe (Google Maps or any other map service) -->
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.3576916276593!2d-122.0842496846817!3d37.42199977982406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5c89c1d1071%3A0x71f27a1629c10bff!2sGoogleplex!5e0!3m2!1sen!2sus!4v1598470260274!5m2!1sen!2sus" 
+                                        width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                            </div>
+                        </section>
+                    
+                        <!-- Footer Section -->
+                        <footer>
+                            <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+                        </footer>
+                    <div><!DOCTYPE html>
+                        <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            <title>Privacy Policy and Instructions - Loans, Credit Cards, Investments</title>
+                            <style>
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    margin: 0;
+                                    padding: 0;
+                                    background-color: #f8f8f8;
+                                }
+                                header {
+                                    background-color: #4caf50;
+                                    color: #fff;
+                                    text-align: center;
+                                    padding: 20px;
+                                }
+                                .container {
+                                    max-width: 1000px;
+                                    margin: 20px auto;
+                                    padding: 20px;
+                                }
+                                h2 {
+                                    color: #4caf50;
+                                    text-align: center;
+                                }
+                                .policy, .instructions {
+                                    background-color: #fff;
+                                    padding: 20px;
+                                    border-radius: 5px;
+                                    margin-bottom: 20px;
+                                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                                }
+                                .policy h3, .instructions h3 {
+                                    color: #4caf50;
+                                }
+                                footer {
+                                    background-color: #333;
+                                    color: #fff;
+                                    text-align: center;
+                                    padding: 15px;
+                                }
+                            </style>
+                        </head>
+                        <body>
+                        
+                            <!-- Header Section -->
+                            <header>
+                                <h1>Privacy Policy and User Instructions</h1>
+                                <p>Understand our privacy practices and guidelines for Loans, Credit Cards, and Investment services</p>
+                            </header>
+                        
+                            <!-- Privacy Policy Section -->
+                            <section class="container policy">
+                                <h2>Privacy Policy</h2>
+                                <p>Your privacy is our priority. We are committed to protecting the personal information you share with us. This Privacy Policy outlines how we collect, use, and protect your information.</p>
+                                <h3>Information Collection</h3>
+                                <p>We collect personal information such as your name, email, phone number, and financial details to provide the services you request, including loans, credit cards, and investment options.</p>
+                                <h3>Information Usage</h3>
+                                <p>Your information is used solely for processing applications, improving our services, and communicating with you regarding your applications.</p>
+                                <h3>Data Security</h3>
+                                <p>We implement strict security measures to safeguard your personal information. Your data is kept secure and will not be shared with third parties without your consent, except as required by law.</p>
+                                <h3>Contact Us</h3>
+                                <p>If you have questions about our privacy practices, please contact us at support@financeplatform.com.</p>
+                            </section>
+                        
+                            <!-- Instructions Section -->
+                            <section class="container instructions">
+                                <h2>Instructions for Using Our Services</h2>
+                        
+                                <!-- Loan Instructions -->
+                                <div>
+                                    <h3>Loan Application Instructions</h3>
+                                    <p>Applying for a loan is simple. Please follow these steps:</p>
+                                    <ol>
+                                        <li>Complete the online loan application form with accurate personal and financial information.</li>
+                                        <li>Submit supporting documents such as proof of income, ID proof, and address proof.</li>
+                                        <li>Our team will review your application and contact you within 3-5 business days.</li>
+                                        <li>If approved, the loan amount will be disbursed to your bank account as per the agreed terms.</li>
+                                    </ol>
+                                </div>
+                        
+                                <!-- Credit Card Instructions -->
+                                <div>
+                                    <h3>Credit Card Application Instructions</h3>
+                                    <p>Follow these steps to apply for a credit card:</p>
+                                    <ol>
+                                        <li>Choose a credit card that suits your financial needs and lifestyle.</li>
+                                        <li>Fill out the online credit card application form with the required details.</li>
+                                        <li>Provide identity proof and income documentation for eligibility verification.</li>
+                                        <li>Our team will process your application and notify you of the status within 7 business days.</li>
+                                        <li>If approved, your credit card will be delivered to your address along with activation instructions.</li>
+                                    </ol>
+                                </div>
+                        
+                                <!-- Investment Instructions -->
+                                <div>
+                                    <h3>Investment Instructions</h3>
+                                    <p>To start investing, please follow these guidelines:</p>
+                                    <ol>
+                                        <li>Identify your investment goals, such as long-term growth, retirement, or wealth accumulation.</li>
+                                        <li>Consult with our financial advisors to select the best investment options that match your goals.</li>
+                                        <li>Complete the investment application form and submit it along with required documents.</li>
+                                        <li>Review and confirm the investment plan, terms, and conditions.</li>
+                                        <li>Track your investments and returns through our platform dashboard for transparency and updates.</li>
+                                    </ol>
+                                </div>
+                            </section>
+                        
+                            <!-- Footer Section -->
+                            <footer>
+                                <p>&copy; 2024 Financial Services Platform. All Rights Reserved.</p>
+                            </footer>
+                        <h1><!DOCTYPE html>
+                            <html lang="en">
+                            <head>
+                                <meta charset="UTF-8">
+                                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                <title>Explore Loan Options</title>
+                                <style>
+                                    body {
+                                        font-family: Arial, sans-serif;
+                                        margin: 0;
+                                        padding: 0;
+                                        background-color: #f4f4f9;
+                                    }
+                                    header {
+                                        background-color: #3498db;
+                                        color: #fff;
+                                        text-align: center;
+                                        padding: 20px;
+                                    }
+                                    .container {
+                                        max-width: 1000px;
+                                        margin: 20px auto;
+                                        padding: 20px;
+                                    }
+                                    h2 {
+                                        color: #3498db;
+                                        text-align: center;
+                                    }
+                                    .loan-types {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        justify-content: space-between;
+                                    }
+                                    .loan-option {
+                                        background-color: #fff;
+                                        padding: 20px;
+                                        border: 1px solid #ddd;
+                                        border-radius: 5px;
+                                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                                        width: 48%;
+                                        margin-bottom: 20px;
+                                    }
+                                    .loan-option h3 {
+                                        color: #3498db;
+                                    }
+                                    .loan-option p {
+                                        margin: 10px 0;
+                                    }
+                                    .apply-button {
+                                        background-color: #3498db;
+                                        color: #fff;
+                                        padding: 10px;
+                                        border: none;
+                                        border-radius: 5px;
+                                        cursor: pointer;
+                                        text-align: center;
+                                        display: inline-block;
+                                        margin-top: 10px;
+                                        text-decoration: none;
+                                    }
+                                    .apply-button:hover {
+                                        background-color: #2c8bca;
+                                    }
+                                    footer {
+                                        background-color: #333;
+                                        color: #fff;
+                                        text-align: center;
+                                        padding: 15px;
+                                    }
+                                </style>
+                            </head>
+                            <body>
+                            
+                                <!-- Header Section -->
+                                <header>
+                                    <h1>Explore Our Loan Options</h1>
+                                    <p>Choose from a range of loans tailored to meet your financial needs</p>
+                                </header>
+                            
+                                <!-- Loan Options Section -->
+                                <section class="container">
+                                    <h2>Types of Loans</h2>
+                                    <div class="loan-types">
+                            
+                                        <!-- Personal Loan -->
+                                        <div class="loan-option">
+                                            <h3>Personal Loan</h3>
+                                            <p>Get a personal loan with quick approval and flexible repayment options. Ideal for weddings, medical emergencies, or travel expenses.</p>
+                                            <p><strong>Interest Rate:</strong> 10.5% - 15% per annum</p>
+                                            <p><strong>Eligibility:</strong> Age 21-60, salaried or self-employed</p>
+                                            <a href="#" class="apply-button">Apply for Personal Loan</a>
+                                        </div>
+                            
+                                        <!-- Home Loan -->
+                                        <div class="loan-option">
+                                            <h3>Home Loan</h3>
+                                            <p>Buy your dream home with our affordable home loans. Competitive interest rates and easy EMI options are available.</p>
+                                            <p><strong>Interest Rate:</strong> 6.75% - 9% per annum</p>
+                                            <p><strong>Eligibility:</strong> Age 23-65, salaried or self-employed</p>
+                                            <a href="#" class="apply-button">Apply for Home Loan</a>
+                                        </div>
+                            
+                                        <!-- Car Loan -->
+                                        <div class="loan-option">
+                                            <h3>Car Loan</h3>
+                                            <p>Drive your dream car home with easy financing options. Our car loans offer low-interest rates and flexible terms.</p>
+                                            <p><strong>Interest Rate:</strong> 7.5% - 12% per annum</p>
+                                            <p><strong>Eligibility:</strong> Age 21-60, salaried or self-employed</p>
+                                            <a href="#" class="apply-button">Apply for Car Loan</a>
+                                        </div>
+                            
+                                        <!-- Education Loan -->
+                                        <div class="loan-option">
+                                            <h3>Education Loan</h3>
+                                            <p>Invest in your future with our education loans, covering tuition fees, accommodation, and other educational expenses.</p>
+                                            <p><strong>Interest Rate:</strong> 8% - 12% per annum</p>
+                                            <p><strong>Eligibility:</strong> Age 18-35, accepted at an accredited institution</p>
+                                            <a href="#" class="apply-button">Apply for Education Loan</a>
+                                        </div>
+                            
+                                    </div>
+                                </section>
+                            
+                                <!-- Footer Section -->
+                                <footer>
+                                    <p>&copy; 2024 Financial Services Platform. All Rights Reserved.</p>
+                                </footer>
+                            <h3><!DOCTYPE html>
+                                <html lang="en">
+                                <head>
+                                    <meta charset="UTF-8">
+                                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                    <title>Explore Credit Card Options</title>
+                                    <style>
+                                        body {
+                                            font-family: Arial, sans-serif;
+                                            margin: 0;
+                                            padding: 0;
+                                            background-color: #f4f4f9;
+                                        }
+                                        header {
+                                            background-color: #e74c3c;
+                                            color: #fff;
+                                            text-align: center;
+                                            padding: 20px;
+                                        }
+                                        .container {
+                                            max-width: 1000px;
+                                            margin: 20px auto;
+                                            padding: 20px;
+                                        }
+                                        h2 {
+                                            color: #e74c3c;
+                                            text-align: center;
+                                        }
+                                        .credit-card-types {
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            justify-content: space-between;
+                                        }
+                                        .credit-card-option {
+                                            background-color: #fff;
+                                            padding: 20px;
+                                            border: 1px solid #ddd;
+                                            border-radius: 5px;
+                                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                                            width: 48%;
+                                            margin-bottom: 20px;
+                                        }
+                                        .credit-card-option h3 {
+                                            color: #e74c3c;
+                                        }
+                                        .credit-card-option p {
+                                            margin: 10px 0;
+                                        }
+                                        .apply-button {
+                                            background-color: #e74c3c;
+                                            color: #fff;
+                                            padding: 10px;
+                                            border: none;
+                                            border-radius: 5px;
+                                            cursor: pointer;
+                                            text-align: center;
+                                            display: inline-block;
+                                            margin-top: 10px;
+                                            text-decoration: none;
+                                        }
+                                        .apply-button:hover {
+                                            background-color: #c0392b;
+                                        }
+                                        footer {
+                                            background-color: #333;
+                                            color: #fff;
+                                            text-align: center;
+                                            padding: 15px;
+                                        }
+                                    </style>
+                                </head>
+                                <body>
+                                
+                                    <!-- Header Section -->
+                                    <header>
+                                        <h1>Explore Our Credit Card Options</h1>
+                                        <p>Find the right credit card to match your spending habits</p>
+                                    </header>
+                                
+                                    <!-- Credit Card Options Section -->
+                                    <section class="container">
+                                        <h2>Types of Credit Cards</h2>
+                                        <div class="credit-card-types">
+                                
+                                            <!-- Cashback Credit Card -->
+                                            <div class="credit-card-option">
+                                                <h3>Cashback Credit Card</h3>
+                                                <p>Earn cashback on your everyday purchases. Enjoy 1.5% cashback on all transactions.</p>
+                                                <p><strong>Annual Fee:</strong> $0 for the first year, then $95</p>
+                                                <p><strong>Interest Rate:</strong> 14.99% - 22.99% APR</p>
+                                                <a href="#" class="apply-button">Apply for Cashback Card</a>
+                                            </div>
+                                
+                                            <!-- Travel Rewards Credit Card -->
+                                            <div class="credit-card-option">
+                                                <h3>Travel Rewards Credit Card</h3>
+                                                <p>Get points for every dollar spent and redeem them for travel. 2x points on travel and dining.</p>
+                                                <p><strong>Annual Fee:</strong> $89</p>
+                                                <p><strong>Interest Rate:</strong> 15.99% - 23.99% APR</p>
+                                                <a href="#" class="apply-button">Apply for Travel Card</a>
+                                            </div>
+                                
+                                            <!-- Low Interest Credit Card -->
+                                            <div class="credit-card-option">
+                                                <h3>Low Interest Credit Card</h3>
+                                                <p>Enjoy a lower interest rate on your balance transfers and purchases. Ideal for those looking to save on interest.</p>
+                                                <p><strong>Annual Fee:</strong> $35</p>
+                                                <p><strong>Interest Rate:</strong> 8.99% - 14.99% APR</p>
+                                                <a href="#" class="apply-button">Apply for Low Interest Card</a>
+                                            </div>
+                                
+                                            <!-- Student Credit Card -->
+                                            <div class="credit-card-option">
+                                                <h3>Student Credit Card</h3>
+                                                <p>A great starter card for students. Build your credit history while enjoying rewards on purchases.</p>
+                                                <p><strong>Annual Fee:</strong> $0</p>
+                                                <p><strong>Interest Rate:</strong> 15.99% - 22.99% APR</p>
+                                                <a href="#" class="apply-button">Apply for Student Card</a>
+                                            </div>
+                                
+                                        </div>
+                                    </section>
+                                
+                                    <!-- Footer Section -->
+                                    <footer>
+                                        <p>&copy; 2024 Financial Services Platform. All Rights Reserved.</p>
+                                    </footer>
+                                <h4><!DOCTYPE html>
+                                    <html lang="en">
+                                    <head>
+                                        <meta charset="UTF-8">
+                                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                        <title>Explore Investment Options</title>
+                                        <style>
+                                            body {
+                                                font-family: Arial, sans-serif;
+                                                margin: 0;
+                                                padding: 0;
+                                                background-color: #f4f4f9;
+                                            }
+                                            header {
+                                                background-color: #2ecc71;
+                                                color: #fff;
+                                                text-align: center;
+                                                padding: 20px;
+                                            }
+                                            .container {
+                                                max-width: 1000px;
+                                                margin: 20px auto;
+                                                padding: 20px;
+                                            }
+                                            h2 {
+                                                color: #2ecc71;
+                                                text-align: center;
+                                            }
+                                            .investment-types {
+                                                display: flex;
+                                                flex-wrap: wrap;
+                                                justify-content: space-between;
+                                            }
+                                            .investment-option {
+                                                background-color: #fff;
+                                                padding: 20px;
+                                                border: 1px solid #ddd;
+                                                border-radius: 5px;
+                                                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                                                width: 48%;
+                                                margin-bottom: 20px;
+                                            }
+                                            .investment-option h3 {
+                                                color: #2ecc71;
+                                            }
+                                            .investment-option p {
+                                                margin: 10px 0;
+                                            }
+                                            .learn-button {
+                                                background-color: #2ecc71;
+                                                color: #fff;
+                                                padding: 10px;
+                                                border: none;
+                                                border-radius: 5px;
+                                                cursor: pointer;
+                                                text-align: center;
+                                                display: inline-block;
+                                                margin-top: 10px;
+                                                text-decoration: none;
+                                            }
+                                            .learn-button:hover {
+                                                background-color: #27ae60;
+                                            }
+                                            footer {
+                                                background-color: #333;
+                                                color: #fff;
+                                                text-align: center;
+                                                padding: 15px;
+                                            }
+                                        </style>
+                                    </head>
+                                    <body>
+                                    
+                                        <!-- Header Section -->
+                                        <header>
+                                            <h1>Explore Our Investment Options</h1>
+                                            <p>Discover investment opportunities that suit your financial goals</p>
+                                        </header>
+                                    
+                                        <!-- Investment Options Section -->
+                                        <section class="container">
+                                            <h2>Types of Investments</h2>
+                                            <div class="investment-types">
+                                    
+                                                <!-- Stocks -->
+                                                <div class="investment-option">
+                                                    <h3>Stocks</h3>
+                                                    <p>Invest in shares of companies and enjoy potential capital gains and dividends. Stocks can offer high returns but come with risks.</p>
+                                                    <p><strong>Potential Returns:</strong> High</p>
+                                                    <p><strong>Risk Level:</strong> High</p>
+                                                    <a href="#" class="learn-button">Learn More about Stocks</a>
+                                                </div>
+                                    
+                                                <!-- Mutual Funds -->
+                                                <div class="investment-option">
+                                                    <h3>Mutual Funds</h3>
+                                                    <p>Diversify your portfolio with professionally managed mutual funds. These funds pool money from multiple investors to invest in a variety of assets.</p>
+                                                    <p><strong>Potential Returns:</strong> Moderate to High</p>
+                                                    <p><strong>Risk Level:</strong> Moderate</p>
+                                                    <a href="#" class="learn-button">Learn More about Mutual Funds</a>
+                                                </div>
+                                    
+                                                <!-- Bonds -->
+                                                <div class="investment-option">
+                                                    <h3>Bonds</h3>
+                                                    <p>Invest in government or corporate bonds for steady income. Bonds are considered lower-risk compared to stocks.</p>
+                                                    <p><strong>Potential Returns:</strong> Low to Moderate</p>
+                                                    <p><strong>Risk Level:</strong> Low</p>
+                                                    <a href="#" class="learn-button">Learn More about Bonds</a>
+                                                </div>
+                                    
+                                                <!-- Real Estate -->
+                                                <div class="investment-option">
+                                                    <h3>Real Estate</h3>
+                                                    <p>Invest in physical properties or real estate investment trusts (REITs) for long-term growth and rental income.</p>
+                                                    <p><strong>Potential Returns:</strong> Moderate to High</p>
+                                                    <p><strong>Risk Level:</strong> Moderate</p>
+                                                    <a href="#" class="learn-button">Learn More about Real Estate</a>
+                                                </div>
+                                    
+                                            </div>
+                                        </section>
+                                    
+                                        <!-- Footer Section -->
+                                        <footer>
+                                            <p>&copy; 2024 Financial Services Platform. All Rights Reserved.</p>
+                                        </footer>
+                                    
+                                    </body>
+                                    </html>
+                                    </h4>
+                                </body>
+                                </html>
+                                </h3>
+                            </body>
+                            </html>
+                            </h1>
+                        </body>
+                        </html>
+                        </div>
+                    </body>
+                    </html>
+                    </h4>
+                </body>
+                </html>
+                </h6>
+            </body>
+            </html>
+            </h4>
+        </body>
+        </html>
+        </h2>
+    </body>
+    </html>
+    </h1>
+</body>
+</html>
